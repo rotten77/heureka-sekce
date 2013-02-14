@@ -1,0 +1,105 @@
+* {
+	margin:0;
+	padding:0;
+	font-size:12px;
+}
+body {
+	font-family:sans-serif;
+	color:#666;
+}
+#fullname-input {
+	width:100%;
+	border:0;
+	font-weight:bold;
+}
+#fullname-input, #panel, #panel div {
+	background:#4199d4;
+	color:#fff;
+}
+#panel {
+	width:100%;
+	background:#236b9c;
+	position:fixed;
+	left:0;
+	bottom:0;
+}
+#panel div {
+	height:24px;
+	margin:1px 0;
+}
+#panel div span, #fullname-input {
+	float:left;
+	height:24px;
+	line-height:24px;
+}
+#footer {
+	margin-top:8px;
+	padding:8px 14px;
+	border-top:1px solid #cee9f4;
+}
+#panel div span.hodnota {
+	width:80%;
+	font-weight:bold;
+}
+#panel div span.nazev {
+	width:20%;
+	text-indent:14px;
+	overflow:hidden;
+}
+#wrapper {
+	padding-bottom:80px;
+}
+ul {
+	list-style-position: outside;
+	list-style: none;
+}
+li ul {
+	margin-left:24px;
+}
+li a {
+	display:block;
+	height:20px;
+	padding:0 8px;
+}
+li a:hover {
+	background:#f0f8fb;
+}
+
+li a span {
+	height:20px;
+	line-height:20px;
+	float:left;
+}
+li a .ikona {
+	background:#4199d4;
+	color:#fff;
+	width:10px;
+	height:10px;
+	line-height:10px;
+	text-align:center;
+	margin:4px 4px 0 0;
+	font-weight:normal !important;
+	font-size:10px;
+}
+li a .nazev-margin {
+	margin-left:14px;
+}
+
+a {
+	color:#4199d4;
+	text-decoration: none;
+}
+a:hover {
+	color:#000;
+}
+a.aktivni {
+	color:#000;
+	font-weight:bold;
+}
+h1 {
+	border-bottom:1px solid #cee9f4;
+	padding:12px;
+	font-size:16px;
+	margin-bottom:8px;
+	color:#f26724;
+}
